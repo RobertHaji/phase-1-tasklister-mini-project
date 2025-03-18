@@ -4,8 +4,11 @@ const form = document.getElementById("create-task-form");
   const submit = document.getElementById("submitInput");
   let taskItem = document.getElementById("tasks");
   let taskList = [];
+
   const date = document.getElementById('number-of-days')
   const color = document.getElementById('priority')
+
+
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const taskInput = document.getElementById('new-task-description')
