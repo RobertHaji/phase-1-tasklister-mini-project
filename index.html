@@ -10,10 +10,12 @@
       <h1>Task Lister Lite™️</h1>
 
       <form id="create-task-form" action="" method="POST">
+        <!-- Stretch for the date adding label for (date) and Input type() -->
         <label for="date">Date</label>
         <input type="date" id="number-of-days" />
+        <!-- Stretch for color and priority -->
         <label for="color">Priority:</label>
-        <select name="color" id="priority">
+         <select name="color" id="priority">
           <option value="high">high</option>
           <option value="medium">medium</option>
           <option value="low">low</option>
@@ -25,7 +27,10 @@
           name="new-task-description"
           placeholder="description"
         />
-        <input type="submit" id="submitInput" value="Create New Task" />
+        <input 
+        type="submit"
+         id="submitInput" 
+         value="Create New Task" />
       </form>
 
       <div id="list">
